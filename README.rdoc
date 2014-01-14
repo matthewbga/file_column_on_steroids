@@ -47,6 +47,7 @@ the <attribute>_in_s3 is set to false. When that file is moved or copied onto S3
 == Setup
 
 1. Install the right_aws gem
+ gem install right_aws -v 1.9.0
 2. Register with Amazon Web Services (S3 and optionally CloudFront)
 3. Enter the following config variables in your environment.rb file:
 	FileColumn::S3FileColumnExtension::Config.s3_access_key_id = YOUR_S3_ACCESS_KEY
